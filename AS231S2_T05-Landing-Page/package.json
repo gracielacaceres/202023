@@ -1,0 +1,21 @@
+{
+  "name": "generador-uuid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/conexion.js",
+  "scripts": {
+    "start": "nodemon ./src/conexion.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "uuid": "^8.0.0"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5"
+  }
+}
